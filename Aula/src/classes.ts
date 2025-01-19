@@ -24,6 +24,15 @@ class Person implements IPerson{
     }
 }
 
+// isso aqui abaixo e tudo mais simplificado e so comparar com o de cima bem menos linhas
+class PersonRefect {
+    constructor (readonly id: number,
+        protected name: string,
+        private age: number) {
+            
+        }
+}
+
 // subclasse 
 class employe extends Person {
     constructor(id: number, name: string, age: number) {
