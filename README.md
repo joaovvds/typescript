@@ -24,4 +24,6 @@
 
 #Inicializar um arquivo de configuração TypeScript
 * tsconfig.json
-~~~~ tsc --init 
+~~~~
+tsc --init 
+~~~~
