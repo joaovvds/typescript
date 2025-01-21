@@ -26,4 +26,11 @@
 * tsconfig.json
 ~~~~
 tsc --init 
+
+  /* Language and Environment */
+    "target": "es2016",  
+
+       /* Modules */
+    "module": "ESNext",                                /* Specify what module code is generated. */
+    "rootDir": "Aula/src", /   
 ~~~~
